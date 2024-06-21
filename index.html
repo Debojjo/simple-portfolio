@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Porfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(24, 19, 43);
+            ;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(159, 71, 241);
+            font-size: 0.97rem;
+        }
+
+
+        body {
+            background-color: rgb(13, 9, 24);
+            color: rgb(243, 242, 240);
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        .prothom {
+            display: flex;
+            justify-content: space-around;
+            margin: 50px 0px 30px 30px;
+        }
+
+        .prothom>div {
+            width: 40%;
+        }
+
+        .leftsec {
+
+            font-size: 2rem;
+            margin: 80px 100px;
+        }
+
+        .leftsec .btn {
+            margin: 30px 0;
+            padding: 15px;
+            color: white;
+            background: #160624;
+            border-radius: 5px;
+        }
+
+        .leftsec .btn:hover {
+            box-shadow: 3px 3px 3px 0 rgb(44, 19, 51);
+            cursor: pointer;;
+        }
+
+        .purple {
+            color: rgb(159, 71, 241);
+        }
+
+        .gray {
+            color: gray;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(132, 21, 236);
+            height: 1px;
+            margin: 30px 70px;
+        }
+
+        .ditiyo {
+            height: 60vh;
+            max-width: 80vw;
+            margin: auto;
+            padding: 23px;
+        }
+
+        .ditiyo>h1 {
+            font-size: 1.5rem;
+            margin-bottom: 83px;
+            margin-top: 13px;
+        }
+
+        .ditiyo .box1 {
+            width: 72vw;
+            background: white;
+            margin: 60px;
+            height: 1.5px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .ditiyo .vertical {
+            margin: 0 70px;
+            height: 93px;
+            width: 1.5px;
+            background-color: white;
+        }
+
+        .img-top {
+            width: 50px;
+            position: relative;
+            top: -51px;
+            left: -19px;
+            filter: invert(1);
+        }
+
+        .vert-title {
+            position: relative;
+            top: 42px;
+            left: -41px;
+        }
+
+        .vert-desc {
+            position: relative;
+            top: 42px;
+            left: -41px;
+            font-size: smaller;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(132, 21, 236);
+            height: 1px;
+            margin: 30px 70px;
+        }
+
+        .tritiyo {
+            height: 60vh;
+            max-width: 80vw;
+            margin: auto;
+            padding: 23px;
+        }
+
+        .tritiyo .box2 {
+            width: 72vw;
+            background: white;
+            margin: 60px;
+            height: 1.5px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .tritiyo>h1 {
+            font-size: 1.5rem;
+            margin-bottom: 83px;
+            margin-top: 13px;
+        }
+
+        .tritiyo .vertical {
+            margin: 0 70px;
+            height: 93px;
+            width: 1.5px;
+            background-color: white;
+        }
+
+        .img-bottom {
+            width: 50px;
+            position: relative;
+            top: -51px;
+            left: -19px;
+        }
+
+        footer {
+            background-color: rgb(24, 19, 43);
+            height: 90px;
+            padding-bottom: 10px;
+        }
+
+        .foot {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .foot-first {
+            margin-top: 18px;
+        }
+
+        .foot-second {
+            margin-top: 20px;
+        }
+
+        .foot-third {
+            margin-top: 45px;
+        }
+
+        .foot-first>h3 {
+            margin: 5px;
+        }
+
+        .inv {
+            filter: invert(1);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">My porfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact Info</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="prothom">
+            <div class="leftsec">
+                <div>Hi, I'm <span class="purple"> Debojjo,</span></div>
+                <div>an aspiring</div>
+                <span class="purple" id="element"></span>
+                <div>eager to innovate and contribute to transformative projects</div>
+                <div class="buttons">
+                    <button class="btn">Download Reume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsec">
+                <img width="400px" src="hacker.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="ditiyo">
+            <span class="gray">My journey so far..</span>
+            <h1>Summary</h1>
+            <div class="box1">
+                <div class="vertical">
+                    <img class="img-top" src="reading.png" alt="">
+                    <div class="vert-title">SCHOOL(2008-2016)</div>
+                    <div class="vert-desc gray"></div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="read.png" alt="">
+                    <div class="vert-title">HIGH SCHOOL(2016-2020)</div>
+                    <div class="vert-desc gray"></div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="graduated.png" alt="">
+                    <div class="vert-title">GRADUATION FROM SCHOOL(2020)</div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="coding.png" alt="">
+                    <div class="vert-title">UNIVERSITY(2021-)</div>
+                    <div class="vert-desc gray">Pursuing BTech in Computer Science and Engineering</div>
+                </div>
+            </div>
+
+        </section>
+        <hr>
+        <section class="tritiyo">
+            <h1>Professional Summary</h1>
+            <div class="box2">
+                <div class="vertical">
+                    <img class="img-bottom" src="c-.png" alt="">
+                    <div class="vert-title">C/C++ DEVELOPER(2021-)</div>
+                    <div class="vert-desc gray"></div>
+                </div>
+                <div class="vertical">
+                    <img class="img-bottom" src="html.png" alt="">
+                    <div class="vert-title">HTML DEVELOPER(2022-)</div>
+                </div>
+                <div class="vertical">
+                    <img class="img-bottom" src="css-3.png" alt="">
+                    <div class="vert-title">CSS DEVELOPER(2022-)</div>
+                </div>
+                <div class="vertical">
+                    <img class="img-bottom" src="java-script.png" alt="">
+                    <div class="vert-title">JS DEVELOPER(2023-)</div>
+                </div>
+                <div class="vertical">
+                    <img class="img-bottom" src="java.png" alt="">
+                    <div class="vert-title">JAVA DEVELOPER(2024-)</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="foot">
+            <div class="foot-first">
+                <h3>MY SOCIALS:</h3>
+                <a href="https://www.instagram.com/_d.e.b.o.j.j.o._"><img width="23px" src="instagram.png" alt=""></a>
+                <a href="https://twitter.com/pointofbots"><img class="inv" width="23px" src="social-media.png"
+                        alt=""></a>
+                <a href="https://github.com/Debojjo"><img width="23px" src="github.png" alt=""></a>
+            </div>
+            <div class="foot-second">
+                <ul>
+                    <li><a href="http://">privacy</a></li>
+                    <li><a href="http://">documentation</a></li>
+                    <li><a href="http://">copyright</a></li>
+                </ul>
+            </div>
+            <div class="foot-third gray">
+                <h4>copyright&#169www.debojjosportfolio.com||All rights reserved</h6>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['software engineer', 'IT consultant', 'web designer', 'web developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
